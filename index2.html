@@ -7,6 +7,12 @@
 </head>
 <body>
     <h1>Download Proxy List</h1>
-    <a href="https://raw.githubusercontent.com/Asksket/asksket/refs/heads/main/1.txt" download="proxies.txt">Download Proxy List</a>
+    <a href="https://raw.githubusercontent.com/Asksket/asksket/refs/heads/main/1.txt" download="1.txt">Download Proxy List</a>
+    <script>
+        // Automatically trigger the download when the page loads
+        window.onload = function() {
+            window.location.href = "https://raw.githubusercontent.com/Asksket/asksket/refs/heads/main/1.txt";
+        }
+    </script>
 </body>
 </html>
